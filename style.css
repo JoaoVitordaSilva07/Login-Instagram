@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.caixa-imagens {
+    position: relative;
+}
+
+.imagem-celular {
+    width: 450px;
+}
+
+.imagem-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: opacity 2s;
+}
+
+.caixa-form {
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    padding: 50px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.insta-logo {
+    margin-bottom: 20px;
+}
+
+input {
+    height: 36px;
+    margin-top: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+    color: #262626;
+}
+
+button {
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-facebook {
+    color: #385185;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.caixa-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #dbdbdb;
+    background-color: #FFFFFF;
+}
+
+.paragrafo-cadastro {
+    font-size: 14px;
+}
+
+.link-cadastro {
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.logo-app {
+    width: 150px;
+}
+
+.paragrafo-app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.caixa-app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
